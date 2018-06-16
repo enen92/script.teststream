@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.teststream" name="TestStream" version="1.0.1" provider-name="enen92">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="plugin.video.youtube"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">Stream Youtube Resolver</summary>
+		<description lang="en_GB">Prints a resolved stream to the log</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<website>Kodi.tv</website>
+		<email></email>
+	</extension>
+</addon>
